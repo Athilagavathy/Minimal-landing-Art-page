@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    border-bottom:0.5px solid gray;
+    width:100%;
+    line-height:80px;
+    height:80px;
+    font-size:18px;
+    padding: 0 30 px;
+    position:absolute;
+    top:0;
+    left:0;
+    font-family: "karla";
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a.nav-logo{
+    float:left;
+    height:inherit;
+    line-height:inherit;
+    padding:0 30px;
+    font-size:40px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-family:"karla";
+    color:white;
+    font-weight:bold;
+}
+.navbar ul{
+    float:right;
+    list-style:none;
+    height:inherit;
+    line-height:inherit;
+    padding:0 50px;
+}
+.navbar ul li{
+    display:inline-block;
+}
+.navbar ul li a{
+    display:block;
+    text-align:center;
+    min-width:120px;
+    padding:0 30px;
+}
+.navbar ul li a:hover{
+    background-color:gray;
+}
+body{
+    background-color:black;
+}
+.content{
+    font-family:"karla";
+    color:white;
+    margin-top:30%;
+    margin-left: 100px;
+}
+h1{
+    font-size:70px;
+}
+p{
+    margin-top:10px;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.btn{
+    margin-top:20px;
+    background:white;
+    cursor:pointer;
+    color:black;
+    padding:12px 20px;
+    float:left;
+    border:0;
+    border-radius:20px;
+    margin-left:10px;
+}
+.btn:hover{
+    background:gray;
+}
+img{
+    margin-top:150px;
+    margin-left:150px;
+    width:550px;
+    filter:grayscale(1);
+}
+img:hover{
+    filter:grayscale(3);
+    transition:3s;
+    cursor:pointer;
+}
